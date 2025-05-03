@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Download</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     </head>
 
     <link rel="Stylesheet" href="style.css">
@@ -17,10 +18,12 @@
             <a href="download.html">Download</a>
             <a href="about us.html">About Us</a>
             <a href="support.html">Support</a>
-            <div class="switch" onclick="SwitchTheme()">
-                <button type="button"></button>
-            </div>
+            <button type="button" onclick="SwitchTheme()">
+                <!--<img src="images/">-->
+            </button>
+            
         </nav>
+
         <div class="section">
             <section class="image-content">
                 <h2>Android</h2>
@@ -54,5 +57,9 @@
                 <a href="#">Instagram</a>
             </p>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
